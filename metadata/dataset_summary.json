@@ -1,0 +1,31 @@
+{
+  "dataset_id": "deidentified-inpatient-records-sample-3",
+  "dataset_name_zh": "脱敏住院病例结构化样本3例",
+  "case_count": 3,
+  "data_format": "JSONL",
+  "sample_composition": "包含3例医院真实住院病例经脱敏加工后的结构化文本，字段包括病例编号、性别、年龄分组、科室、诊断摘要和结构化病历段落。",
+  "deidentification_notes": [
+    "不保留姓名、身份证号、手机号、住址、住院号、门诊号、病案号、床号等直接身份标识。",
+    "精确日期、时间、长数字编号和医疗机构名称已做占位或泛化处理。",
+    "年龄使用分组表达，不保留精确年龄。"
+  ],
+  "department_counts": {
+    "妇产科": 1,
+    "心外科": 1,
+    "心内科": 1
+  },
+  "sex_counts": {
+    "女": 2,
+    "男": 1
+  },
+  "age_group_counts": {
+    "未成年": 1,
+    "45-64岁": 1,
+    "65-79岁": 1
+  },
+  "metadata_files": [
+    "metadata/case_manifest.jsonl",
+    "metadata/files_manifest.jsonl",
+    "metadata/dataset_summary.json"
+  ]
+}

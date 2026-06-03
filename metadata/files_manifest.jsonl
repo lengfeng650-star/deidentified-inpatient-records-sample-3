@@ -1,0 +1,3 @@
+{"file_path": "data/cases.jsonl", "file_type": "jsonl", "description": "脱敏住院病例结构化文本，每行一例病例。", "records": 3, "size_bytes": 63284}
+{"file_path": "metadata/case_manifest.jsonl", "file_type": "jsonl", "description": "病例级元数据清单。", "records": 3, "size_bytes": 1044}
+{"file_path": "metadata/dataset_summary.json", "file_type": "json", "description": "数据集摘要。", "records": 1, "size_bytes": 1080}
